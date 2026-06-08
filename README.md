@@ -8,7 +8,7 @@ An elegant, minimal single-row configuration optimized to completely remove clut
 
 ## 📸 Preview
 
-![ZEUSosX_044 Theme Preview](https://github.com/ZEUSosX/ZEUSosX_044/raw/main/preview.png)
+
 
 *Windows 11 File Explorer with ZEUSosX_044 theme applied - Ultra-compact 44px single-row layout*
 
