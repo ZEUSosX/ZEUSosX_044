@@ -1,0 +1,87 @@
+theme: ZEUSosX_044
+backgroundTranslucentEffect: mica
+backgroundTranslucentEffectRegion: ''
+styleConstants:
+  - ''
+controlStyles:
+  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+    styles:
+      - Background=Transparent
+      - BorderThickness=0
+      - Grid.Row=0
+      - Grid.RowSpan=2
+      - HorizontalAlignment=Left
+      - VerticalAlignment=Top
+      - Width=155
+      - Margin=197,-30,0,0
+  - target: Microsoft.UI.Xaml.Controls.CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+      - HorizontalAlignment=Left
+      - VerticalAlignment=Top
+  - target: Microsoft.UI.Xaml.Controls.Border#BottomBorderLine
+    styles:
+      - Visibility=Collapsed
+  - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+      - BorderBrush=Transparent
+      - ColumnDefinitions:=<ColumnDefinitionCollection><ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/><ColumnDefinition Width="380"/></ColumnDefinitionCollection>
+      - Margin=0,-16,0,-21
+  - target: Grid#TabContainerGrid
+    styles:
+      - Grid.Row=0
+      - HorizontalAlignment=Left
+      - Margin=100,0,0,0
+      - Width=1
+      - MaxWidth=1
+  - target: FileExplorerExtensions.FileExplorerTabControl
+    styles:
+      - HorizontalAlignment=Left
+      - Margin=100,0,0,0
+      - Width=1
+      - MaxWidth=1
+  - target: TabViewItem
+    styles:
+      - Width=0
+      - Visibility=Collapsed
+  - target: Grid#TabContainerGrid > Border > Button#AddButton
+    styles:
+      - Visibility=Collapsed
+  - target: AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
+    styles:
+      - Background=Transparent
+      - BorderThickness=0
+  - target: Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
+    styles:
+      - Background=Transparent
+      - BorderThickness=0
+  - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#FileExplorerSearchBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
+    styles:
+      - Margin=0,0,140,0
+      - Background=Transparent
+      - BorderBrush=Transparent
+      - TextAlignment=Center
+      - HorizontalContentAlignment=Center
+  - target: Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid
+    styles:
+      - HorizontalAlignment=Stretch
+      - Height=28
+      - Margin=155,0,0,0
+  - target: AutoSuggestBox#FileExplorerSearchBox
+    styles:
+      - HorizontalAlignment=Stretch
+      - Height=28
+      - Margin=-7,-1,7,0
+  - target: Microsoft.UI.Xaml.Controls.CommandBar#FileExplorerCommandBar Button
+    styles:
+      - FontSize=14
+themeResourceVariables:
+  - ControlFillColorDefaultBrush=#00FFFFFF
+  - ControlFillColorSecondaryBrush=#00FFFFFF
+  - ControlCornerRadius=6
+  - OverlayCornerRadius=6
+  - TextSelectionHighlightColorThemeBrush=#FF007AFF
+  - TextOnAccentFillColorSelectedTextBrush=#FFFFFFFF
+explorerFrameContainerHeight: 44
+xamlDiagnosticsHandling: alert
